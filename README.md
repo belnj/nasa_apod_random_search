@@ -15,7 +15,7 @@ The goal of this app is to test hooks and other react features. Also create an a
 * [Vitejs](https://vitejs.dev/guide/)
 
 
-## Usage📋
+## Usage 📋
 
 Instalation
 ```
@@ -31,5 +31,5 @@ Prepare to production
 npm run build
 ```
 
-## Project Status
+## Project Status ✏️
 This development is subject to changes and improvements
