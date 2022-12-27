@@ -1,0 +1,57 @@
+* {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(234, 234, 234);
+}
+
+body {
+  padding: 60px;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(0, 0, 0);
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+  width: 98%;
+}
+
+.search-form{
+  margin-bottom: 4rem;
+}
+
+.loading{
+  color: gray;
+}
+
+.title_grid{
+  margin-top: 2rem;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 3rem;
+  grid-auto-rows: minmax(100px, auto);
+  place-content: center;
+}
+
+.card {
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  border-radius: 2px;
+}
+
+.card img {
+  max-width: 100%; 
+}
+
+.card-content {
+  margin: 0px 2rem 2rem 2rem;
+}
+
